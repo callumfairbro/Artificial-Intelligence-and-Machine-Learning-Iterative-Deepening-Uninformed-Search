@@ -81,7 +81,7 @@ public class IDSearch
 			}
 		}
 		
-		System.out.println("TOTAL FAILURE: No solution found for limit of " + limit + ".");
+		System.out.println("FAILURE: No solution found for limit of " + limit + ".");
 		return null;
 	
 	}
@@ -99,7 +99,6 @@ public class IDSearch
 			
 			if(frontier.isEmpty())
 			{
-				System.out.println("Failure: No solution found for depth " + depth + ".");
 				return explored;
 			}
 			
